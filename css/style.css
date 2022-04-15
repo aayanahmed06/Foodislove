@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.hero-img{
+    background: url(/img/hero-img.jpg) no-repeat;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+
+.hero-wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.hero-wrapper h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+
+.hero-wrapper button{
+    text-transform: capitalize;
+}
+
+.hero-wrapper span{
+    margin-left: 3rem;
+    text-transform: capitalize;
+}
+
+.form-code .post-code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+}
+
+.form-code button{
+    width: 40%;
+    display:block;
+    text-align: center;
+    background-color: #00bab1;
+    color: white;
+    margin-top: 1rem;
+    margin: 1rem auto 0;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+}
